@@ -3,7 +3,7 @@ import {HardhatRuntimeEnvironment} from "hardhat/types"
 import verify from "../utils/verify"
 
 import {networkConfig, developmentChains, VERIFICATION_BLOCK_CONFIRMATIONS} from "../helper-hardhat-config"
-const FUND_AMOUNT = "1000000000000000000000"
+const FUND_AMOUNT = "10000000000000000000000"
 
 const deployRaffle: DeployFunction = async function(hre: HardhatRuntimeEnvironment){
 	const {deployments, getNamedAccounts, network, ethers} = hre
